@@ -2,6 +2,6 @@ package foo
 
 import "fmt"
 
-func foo(s string) string {
+func Foo(s string) string {
 	return fmt.Sprintf("foo:%s", s)
 }
